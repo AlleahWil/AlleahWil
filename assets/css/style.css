@@ -282,6 +282,23 @@ h6 {
   }
 }
 
+@media (max-width: 425px) {
+  .contacts .info {
+    margin: 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .contacts .info {
+    margin-left: 30%;
+  }
+}
+@media (max-width: 2560px) {
+  .contacts .info {
+    margin-left: 30%;
+  }
+}
+
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
@@ -307,7 +324,7 @@ section {
   background: #f5f8fd;
 }
 
-.section-title {
+.section-title  {
   padding-bottom: 30px;
 }
 
@@ -321,6 +338,7 @@ section {
 }
 
 .section-title h2::after {
+  text-align: center;
   content: "";
   position: absolute;
   display: block;
@@ -330,7 +348,9 @@ section {
   bottom: 0;
   left: 0;
 }
-
+.contact h2::after{
+  margin-left: 46%;
+}
 .section-title p {
   margin-bottom: 0;
 }
@@ -838,9 +858,9 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact {
+/* .contact {
   padding-bottom: 130px;
-}
+} */
 
 .contact .info {
   padding: 30px;
@@ -869,6 +889,9 @@ section {
   font-weight: 600;
   margin-bottom: 5px;
   color: #050d18;
+}
+.contact h2{
+  text-align: center;
 }
 
 .contact .info p {
