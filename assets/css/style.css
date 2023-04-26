@@ -567,7 +567,7 @@ section {
   text-transform: uppercase;
   color: #272829;
   margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover,
@@ -594,7 +594,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.1s;
   z-index: 2;
   opacity: 0;
 }
@@ -606,7 +606,7 @@ section {
   bottom: -60px;
   z-index: 3;
   position: absolute;
-  transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.1s;
   display: flex;
   justify-content: center;
 }
@@ -616,7 +616,7 @@ section {
   font-size: 28px;
   text-align: center;
   background: rgba(20, 157, 221, 0.75);
-  transition: 0.2s;
+  transition: 0.1s;
   width: 50%;
 }
 
